@@ -1,14 +1,15 @@
-# H.O.M.E.T (Heat Optimization Maximizing Efficiency & Temperatures)
+# H.O.M.E.T 
+*(Heat Optimization Maximizing Efficiency & Temperatures)*
 
 
 
 **H.O.M.E.T** es un proyecto Open Source con licencia **MIT**, gratuito y diseñado para optimizar el rendimiento de tu equipo y gestionar las temperaturas de manera eficiente con un solo clic.
 
 
+
 ## **¿Qué es H.O.M.E.T y para qué sirve?**
 
-
-H.O.M.E.T ofrece diversas funcionalidades clave para mejorar el rendimiento de tu equipo:
+*H.O.M.E.T* ofrece diversas funcionalidades clave para mejorar el rendimiento de tu equipo:
 
 - **Optimización automática:** Reduce las temperaturas y maximiza el rendimiento de tu equipo con un solo clic.
 - **Restablecimiento de fábrica:** Restaura la configuración original en caso de que el programa cause problemas.
@@ -20,6 +21,7 @@ H.O.M.E.T ofrece diversas funcionalidades clave para mejorar el rendimiento de t
 ---
 
 
+
 ## **¿Cómo se utiliza?**
 
 ### **Requisitos previos**
@@ -28,11 +30,14 @@ H.O.M.E.T ofrece diversas funcionalidades clave para mejorar el rendimiento de t
 - **Dependencias:** Listadas en `requirements.txt`.
 - **Permisos de administrador:** Es posible que sean necesarios para ciertos ajustes del sistema.
 
-### **Uso básico**
 
+
+### **Uso básico**
 
 1. Instala y ejecuta la aplicación.
 2. Accede a las funcionalidades mediante la interfaz gráfica.
+
+
 
 ### **Ejemplos de uso**
 
@@ -43,6 +48,7 @@ H.O.M.E.T ofrece diversas funcionalidades clave para mejorar el rendimiento de t
 - **Generar reportes:** Crea reportes detallados de hardware para guardarlos o compartirlos.
 
 ---
+
 
 
 ## **Instalación y despliegue**
@@ -67,6 +73,7 @@ H.O.M.E.T ofrece diversas funcionalidades clave para mejorar el rendimiento de t
 ---
 
 
+
 ## **Contribuciones al Proyecto**
 
 **H.O.M.E.T** es un proyecto de código abierto. Las contribuciones son bienvenidas. Sigue estos pasos para colaborar:
@@ -89,6 +96,7 @@ H.O.M.E.T ofrece diversas funcionalidades clave para mejorar el rendimiento de t
 ---
 
 
+
 ## **Donaciones**
 
 _Si deseas apoyar el desarrollo continuo de H.O.M.E.T, puedes realizar una donación a través de Mercado Pago utilizando los siguientes datos:_
@@ -98,6 +106,7 @@ _Si deseas apoyar el desarrollo continuo de H.O.M.E.T, puedes realizar una donac
 **CVU:** *0000003100162059837199*
 
 __¡Gracias por tu apoyo!__
+
 
 
 ## **Contacto**
@@ -110,9 +119,13 @@ Este proyecto fue desarrollado por **@DevnisG**. Si tienes preguntas o necesitas
 ---
 
 
+
 **Licencia:** Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
+
+
 _Gracias por usar H.O.M.E.T. Espero que esta herramienta te ayude a mantener tu equipo funcionando de manera óptima y con bajas temperaturas._
+
 
 
 ## **Vista Previa de H.O.M.E.T**
