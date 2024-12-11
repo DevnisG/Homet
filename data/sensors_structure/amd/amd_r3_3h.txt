@@ -1,0 +1,66 @@
+Hardware: AMD Ryzen 3 3100 4-Core Processor (Cpu)
+  Sensor: CPU Core #1, Tipo: Load, Valor: 90.62976
+  Sensor: CPU Core #2, Tipo: Load, Valor: 79.07456
+  Sensor: CPU Core #3, Tipo: Load, Valor: 83.560326
+  Sensor: CPU Core #4, Tipo: Load, Valor: 92.90048
+
+  Sensor: CPU Total, Tipo: Load, Valor: 86.54128
+  Sensor: CPU Total, Tipo: Load, Valor: 84.216644
+  Sensor: CPU Core Max, Tipo: Load, Valor: 92.90048
+  Sensor: CPU Core Max, Tipo: Load, Valor: 0
+
+  Sensor: Package, Tipo: Power, Valor: 29.341366
+  Sensor: Package, Tipo: Power, Valor: 22.075459
+
+  Sensor: Core #1, Tipo: Clock, Valor: 3693.4214
+  Sensor: Core #1, Tipo: Clock, Valor: 3693.0693
+
+  Sensor: Core #1, Tipo: Factor, Valor: 37
+  Sensor: Core #1, Tipo: Factor, Valor: 37
+
+  Sensor: Core #1 (SMU), Tipo: Power, Valor: 3.6531084
+  Sensor: Core #1 (SMU), Tipo: Power, Valor: 2.0002642
+
+  Sensor: Core #1 VID, Tipo: Voltage, Valor: 1.05
+  Sensor: Core #1 VID, Tipo: Voltage, Valor: 1.05
+
+  Sensor: Core #2, Tipo: Clock, Valor: 3693.4214
+  Sensor: Core #2, Tipo: Clock, Valor: 3693.0693
+
+  Sensor: Core #2, Tipo: Factor, Valor: 37
+  Sensor: Core #2, Tipo: Factor, Valor: 37
+
+  Sensor: Core #2 (SMU), Tipo: Power, Valor: 3.7440538
+  Sensor: Core #2 (SMU), Tipo: Power, Valor: 5.366028
+
+  Sensor: Core #2 VID, Tipo: Voltage, Valor: 1.05
+  Sensor: Core #2 VID, Tipo: Voltage, Valor: 1.05
+
+  Sensor: Core (Tctl/Tdie), Tipo: Temperature, Valor: 53.375008
+  Sensor: Core (Tctl/Tdie), Tipo: Temperature, Valor: 53.375008
+
+  Sensor: CCD1 (Tdie), Tipo: Temperature, Valor: 52.500004
+  Sensor: CCD1 (Tdie), Tipo: Temperature, Valor: 52.500004
+
+  Sensor: Core (SVI2 TFN), Tipo: Voltage, Valor: 1.0625
+  Sensor: Core (SVI2 TFN), Tipo: Voltage, Valor: 1.0625
+  Sensor: SoC (SVI2 TFN), Tipo: Voltage, Valor: 1.0125
+  Sensor: SoC (SVI2 TFN), Tipo: Voltage, Valor: 1.0125
+
+  Sensor: Bus Speed, Tipo: Clock, Valor: 99.8222
+  Sensor: Bus Speed, Tipo: Clock, Valor: 99.81268
+
+  Sensor: TDC, Tipo: Current, Valor: 14.749612
+  Sensor: TDC, Tipo: Current, Valor: 13.1808405
+  Sensor: EDC, Tipo: Current, Valor: 34.597736
+  Sensor: EDC, Tipo: Current, Valor: 34.55049
+  
+  Sensor: Fabric, Tipo: Clock, Valor: 1200
+  Sensor: Fabric, Tipo: Clock, Valor: 1200
+  Sensor: Uncore, Tipo: Clock, Valor: 1200
+  Sensor: Uncore, Tipo: Clock, Valor: 1200
+  Sensor: Memory, Tipo: Clock, Valor: 1200
+  Sensor: Memory, Tipo: Clock, Valor: 1200
+
+  Sensor: SoC, Tipo: Temperature, Valor: 42.25
+  Sensor: SoC, Tipo: Temperature, Valor: 42.055557

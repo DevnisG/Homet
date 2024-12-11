@@ -1,0 +1,54 @@
+Hardware: AMD Ryzen 7 5700X3D (Cpu)
+
+  Sensor: CPU Core #1, Tipo: Load, Valor: 52.37183380126953
+  Sensor: CPU Core #2, Tipo: Load, Valor: 20.821332931518555
+  Sensor: CPU Core #3, Tipo: Load, Valor: 19.717300415039062
+  Sensor: CPU Core #4, Tipo: Load, Valor: 0.0
+  Sensor: CPU Core #5, Tipo: Load, Valor: 0.0
+  Sensor: CPU Core #6, Tipo: Load, Valor: 13.744640350341797
+  Sensor: CPU Core #7, Tipo: Load, Valor: 0.0
+  Sensor: CPU Core #8, Tipo: Load, Valor: 11.520642280578613
+  Sensor: CPU Core #9, Tipo: Load, Valor: 13.065600395202637
+  Sensor: CPU Core #10, Tipo: Load, Valor: 12.128728866577148
+  Sensor: CPU Core #11, Tipo: Load, Valor: 0.0
+  Sensor: CPU Core #12, Tipo: Load, Valor: 0.0
+  Sensor: CPU Core #13, Tipo: Load, Valor: 0.0
+  Sensor: CPU Core #14, Tipo: Load, Valor: 0.0
+  Sensor: CPU Core #15, Tipo: Load, Valor: 0.0
+  Sensor: CPU Core #16, Tipo: Load, Valor: 13.657784461975098
+  Sensor: CPU Total, Tipo: Load, Valor: 8.356523513793945
+  Sensor: CPU Core Max, Tipo: Load, Valor: 52.37183380126953
+
+  Sensor: Package, Tipo: Power, Valor: 32.562870025634766
+  Sensor: Core #1 (SMU), Tipo: Power, Valor: 1.7593655586242676
+  Sensor: Core #2 (SMU), Tipo: Power, Valor: 4.8940606117248535
+  Sensor: Core #3 (SMU), Tipo: Power, Valor: 1.1833113431930542
+  Sensor: Core #4 (SMU), Tipo: Power, Valor: 0.6696630120277405
+  Sensor: Core #5 (SMU), Tipo: Power, Valor: 0.5904555916786194
+  Sensor: Core #6 (SMU), Tipo: Power, Valor: 0.45364269614219666
+  Sensor: Core #7 (SMU), Tipo: Power, Valor: 0.4421965181827545
+  Sensor: Core #8 (SMU), Tipo: Power, Valor: 0.9425103068351746
+
+  Sensor: Core #1, Tipo: Clock, Valor: 3240.052001953125
+  Sensor: Core #2, Tipo: Clock, Valor: 4050.06494140625
+  Sensor: Core #3, Tipo: Clock, Valor: 3240.052001953125
+  Sensor: Core #4, Tipo: Clock, Valor: 3240.052001953125
+  Sensor: Core #5, Tipo: Clock, Valor: 3240.052001953125
+  Sensor: Core #6, Tipo: Clock, Valor: 3240.052001953125
+  Sensor: Core #7, Tipo: Clock, Valor: 3240.052001953125
+  Sensor: Core #8, Tipo: Clock, Valor: 3240.052001953125
+  Sensor: Bus Speed, Tipo: Clock, Valor: 100.00160217285156
+
+  Sensor: Core (Tctl/Tdie), Tipo: Temperature, Valor: 51.37500762939453
+  Sensor: CCD1 (Tdie), Tipo: Temperature, Valor: 51.000003814697266
+
+  Sensor: Core (SVI2 TFN), Tipo: Voltage, Valor: 1.2625000476837158
+  Sensor: SoC (SVI2 TFN), Tipo: Voltage, Valor: 0.9937499761581421
+  Sensor: Core #1 VID, Tipo: Voltage, Valor: 1.2625000476837158
+  Sensor: Core #2 VID, Tipo: Voltage, Valor: 1.2625000476837158
+  Sensor: Core #3 VID, Tipo: Voltage, Valor: 1.2625000476837158
+  Sensor: Core #4 VID, Tipo: Voltage, Valor: 1.2625000476837158
+  Sensor: Core #5 VID, Tipo: Voltage, Valor: 1.2625000476837158
+  Sensor: Core #6 VID, Tipo: Voltage, Valor: 1.2625000476837158
+  Sensor: Core #7 VID, Tipo: Voltage, Valor: 1.2625000476837158
+  Sensor: Core #8 VID, Tipo: Voltage, Valor: 1.2625000476837158

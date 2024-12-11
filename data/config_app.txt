@@ -1,0 +1,16 @@
+Nombre: H.O.M.E.T (Heat Optimization Maximizing Efficiency & Temperatures)
+
+Color Schemes:
+
+#3e7498
+
+#4c8ea6
+
+#c5f7ff
+
+#33667B 
+
+#1D2024
+
+Window Size 500x650
+
