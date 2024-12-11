@@ -25,6 +25,7 @@
 ## **Descarga la version compilada y lista para usar desde aqui:** 
 
 [H.O.M.E.T - v1.0.0](https://github.com/DevnisG/Homet/releases/download/untagged-5938b78ebcf8da011bf3/Homet_v1.0.0.rar)
+[Relases](https://github.com/DevnisG/Homet/releases)
 
 
 
