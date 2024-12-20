@@ -1,0 +1,7 @@
+C:\Users\Devnis\Desktop\libre-hardware-minitor-api\bin\Release\net8.0\win-x64\publish\appsettings.Development.json
+C:\Users\Devnis\Desktop\libre-hardware-minitor-api\bin\Release\net8.0\win-x64\publish\appsettings.json
+C:\Users\Devnis\Desktop\libre-hardware-minitor-api\bin\Release\net8.0\win-x64\publish\LHM.pdb
+C:\Users\Devnis\Desktop\libre-hardware-minitor-api\bin\Release\net8.0\win-x64\publish\aspnetcorev2_inprocess.dll
+C:\Users\Devnis\Desktop\libre-hardware-minitor-api\bin\Release\net8.0\win-x64\publish\MonoPosixHelper.dll
+C:\Users\Devnis\Desktop\libre-hardware-minitor-api\bin\Release\net8.0\win-x64\publish\libMonoPosixHelper.dll
+C:\Users\Devnis\Desktop\libre-hardware-minitor-api\bin\Release\net8.0\win-x64\publish\LHM.exe
