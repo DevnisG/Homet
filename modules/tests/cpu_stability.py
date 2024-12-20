@@ -18,7 +18,7 @@ def cpu_stability_test(results_container: ft.Column, iterations=10**6, tests=5):
     num_cores = multiprocessing.cpu_count()
     expected_pi = 3.141592653589793
 
-    icon = ft.Icon(name=ft.Icon.VIDEO_STABLE, size=64, color="#4c8ea6")
+    icon = ft.Icon(name=ft.icons.VIDEO_STABLE, size=64, color="#4c8ea6")
     results_container.controls.append(icon)
 
     test_message = ft.Text(translate("stability_test_start"), size=16, weight="bold")

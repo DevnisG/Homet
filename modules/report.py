@@ -42,15 +42,15 @@ def report_content(page: ft.Page):
             return f"{' ' * indent}{str(data)}"
 
     icons_map = {
-        translate("operating_system"): ft.Icon.WINDOW,
-        translate("processor"): ft.Icon.MEMORY,
-        translate("ram"): ft.Icon.SD_CARD,
-        translate("drives"): ft.Icon.STORAGE,
-        translate("network_interfaces"): ft.Icon.WIFI,
-        translate("graphics_cards"): ft.Icon.VIDEO_LABEL_OUTLINED,
-        translate("bios"): ft.Icon.INFO,
-        translate("os_installation_date"): ft.Icon.INSTALL_DESKTOP,
-        translate("motherboard"): ft.Icon.DASHBOARD, 
+        translate("operating_system"): ft.icons.WINDOW,
+        translate("processor"): ft.icons.MEMORY,
+        translate("ram"): ft.icons.SD_CARD,
+        translate("drives"): ft.icons.STORAGE,
+        translate("network_interfaces"): ft.icons.WIFI,
+        translate("graphics_cards"): ft.icons.VIDEO_LABEL_OUTLINED,
+        translate("bios"): ft.icons.INFO,
+        translate("os_installation_date"): ft.icons.INSTALL_DESKTOP,
+        translate("motherboard"): ft.icons.DASHBOARD, 
     }
 
     def create_label_value_row(label, value):
@@ -252,10 +252,10 @@ def report_content(page: ft.Page):
 
     sections_widgets = []
     for section_name, section_data in system_data.items():
-        icon = icons_map.get(section_name, ft.Icon.INFO)
+        icon = icons_map.get(section_name, ft.icons.INFO)
 
         copy_button = ft.IconButton(
-            icon=ft.Icon.COPY,
+            icon=ft.icons.COPY,
             tooltip=translate("copy_tooltip"),
             icon_color="#4c8ea6",
             on_click=lambda e, data=section_data: copy_section_data(data),
@@ -339,7 +339,7 @@ def report_content(page: ft.Page):
             [
                 ft.ElevatedButton(
                     translate("copy"),
-                    icon=ft.Icon.COPY,
+                    icon=ft.icons.COPY,
                     on_click=copy_to_clipboard,
                     style=ft.ButtonStyle(
                         color="#c5f7ff",
@@ -349,7 +349,7 @@ def report_content(page: ft.Page):
                 ),
                 ft.ElevatedButton(
                     translate("save"),
-                    icon=ft.Icon.SAVE,
+                    icon=ft.icons.SAVE,
                     on_click=save_to_file,
                     style=ft.ButtonStyle(
                         color="#c5f7ff",

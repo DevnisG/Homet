@@ -26,6 +26,7 @@ def modify_registry(path, name, value):
                 print(f"HKLM\\{path}\\{name} = {value}")
         except Exception as e:
             print(f"HKLM\\{path}\\{name}\n{e}")
+            
     except Exception as e:
         print(f"Error HKLM\\{path}\\{name}\n{e}")
 

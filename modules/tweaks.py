@@ -179,63 +179,63 @@ def tweaks_content(add_console_message):
 
     tweaks = [
         create_tweak_row(
-            ft.Icon.VISIBILITY,
+            ft.Icons.VISIBILITY,
             "show_file_extensions",
             "show_file_extensions_desc",
             tweak_1
         ),
         create_tweak_row(
-            ft.Icon.DELETE,
+            ft.Icons.DELETE,
             "remove_preinstalled_apps",
             "remove_preinstalled_apps_desc",
             tweak_2
         ),
         create_tweak_row(
-            ft.Icon.DARK_MODE,
+            ft.Icons.DARK_MODE,
             "enable_dark_mode",
             "enable_dark_mode_desc",
             tweak_3
         ),
         create_tweak_row(
-            ft.Icon.LIGHTBULB,
+            ft.Icons.LIGHTBULB,
             "disable_start_menu_suggestions",
             "disable_start_menu_suggestions_desc",
             tweak_4
         ),
         create_tweak_row(
-            ft.Icon.SEARCH,
+            ft.Icons.SEARCH,
             "disable_search_indexing",
             "disable_search_indexing_desc",
             tweak_5
         ),
         create_tweak_row(
-            ft.Icon.FLASH_ON,
+            ft.Icons.FLASH_ON,
             "enable_fast_startup",
             "enable_fast_startup_desc",
             tweak_6
         ),
         create_tweak_row(
-            ft.Icon.SNOOZE,
+            ft.Icons.SNOOZE,
             "remove_sleep_mode",
             "remove_sleep_mode_desc",
             tweak_7
         ),
         create_tweak_row(
-            ft.Icon.DELETE_SWEEP,
+            ft.Icons.DELETE_SWEEP,
             "clean_temporary_files",
             "clean_temporary_files_desc",
             tweak_8,
             undo=False
         ),
         create_tweak_row(
-            ft.Icon.TUNE,
+            ft.Icons.TUNE,
             "optimize_appearance",
             "optimize_appearance_desc",
             tweak_9,
             undo=False,
         ),
         create_tweak_row(
-            ft.Icon.DELETE_FOREVER,
+            ft.Icons.DELETE_FOREVER,
             "empty_recycle_bin",
             "empty_recycle_bin_desc",
             tweak_10,

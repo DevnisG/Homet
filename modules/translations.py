@@ -334,6 +334,7 @@ def translate(key: str) -> str:
 
 def change_language(lang: str):
     global current_language
+
     if lang in translations:
         current_language = lang
     else:

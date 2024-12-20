@@ -12,11 +12,11 @@ COLOR_OK = "#00FF00"
 COLOR_ERROR = "#FF0000"
 
 SENSOR_ICONS = {
-    "Temperature": (ft.Icon.DEVICE_THERMOSTAT, "temperatures"),
-    "Load": (ft.Icon.LINE_WEIGHT, "loads"),
-    "Clock": (ft.Icon.WATCH_LATER_OUTLINED, "clocks"),
-    "Power": (ft.Icon.POWER, "power"),
-    "Voltage": (ft.Icon.ELECTRIC_BOLT, "voltages"),
+    "Temperature": (ft.Icons.DEVICE_THERMOSTAT, "temperatures"),
+    "Load": (ft.Icons.LINE_WEIGHT, "loads"),
+    "Clock": (ft.Icons.WATCH_LATER_OUTLINED, "clocks"),
+    "Power": (ft.Icons.POWER, "power"),
+    "Voltage": (ft.Icons.ELECTRIC_BOLT, "voltages"),
 }
 
 def hw_monitor_content():
@@ -28,7 +28,7 @@ def hw_monitor_content():
             controls=[
                 ft.Row(
                     controls=[
-                        ft.Icon(ft.Icon.CIRCLE, color=COLOR_OK, size=16, ref=status_icon_ref),
+                        ft.Icon(ft.icons.CIRCLE, color=COLOR_OK, size=16, ref=status_icon_ref),
                         ft.Text(translate("api_sensors_status"), color=COLOR_TEXT, size=14, weight=ft.FontWeight.W_100),
                     ],
                     alignment=ft.MainAxisAlignment.END,
@@ -67,7 +67,7 @@ async def update_hw_monitor_ui(page, status_icon_ref, cpu_list_ref):
                             controls=[
                                 ft.Row(
                                     controls=[
-                                        ft.Icon(ft.Icon.MEMORY, color=COLOR_PRIMARY),
+                                        ft.Icon(ft.icons.MEMORY, color=COLOR_PRIMARY),
                                         ft.Text(translate("cpu"), size=18, weight=ft.FontWeight.BOLD, color=COLOR_PRIMARY),
                                     ],
                                     alignment=ft.MainAxisAlignment.CENTER, 

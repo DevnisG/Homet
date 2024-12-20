@@ -26,7 +26,7 @@ def cpu_ram_load_test(results_container: ft.Column):
     results_container.controls.clear()
     try:
         num_cores = os.cpu_count() or 2
-        results_container.controls.append(ft.Icon(name=ft.Icon.FRONT_LOADER, size=64, color="#4c8ea6"))
+        results_container.controls.append(ft.Icon(name=ft.icons.FRONT_LOADER, size=64, color="#4c8ea6"))
         results_container.controls.append(ft.Text(translate("cpu_ram_test_running").format(current=1, total=3), size=16, weight="bold"))
         results_container.update()
 

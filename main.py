@@ -1,4 +1,3 @@
-# main.py
 from modules.hw_monitor import hw_monitor_content, update_hw_monitor_ui, fetch_cpu_data
 from modules.translations import translate, change_language
 from modules.homet import homet_content, SENSOR_MAPPING
@@ -68,7 +67,7 @@ def ui(page: ft.Page):
     )
 
     console_header = ft.Row([
-        ft.Icon(ft.Icon.TERMINAL, color="#4c8ea6"),
+        ft.Icon(ft.Icons.TERMINAL, color="#4c8ea6"),
         ft.Text(translate("console_output"), color="#4c8ea6", weight=ft.FontWeight.BOLD)
     ])
 
@@ -85,7 +84,7 @@ def ui(page: ft.Page):
     )
 
     cpu_info_header = ft.Row([
-        ft.Icon(ft.Icon.MEMORY, color="#4c8ea6"),
+        ft.Icon(ft.Icons.MEMORY, color="#4c8ea6"),
         ft.Text(translate("cpu_info"), color="#4c8ea6", weight=ft.FontWeight.BOLD)
     ])
 
@@ -163,28 +162,28 @@ def ui(page: ft.Page):
     nav = ft.NavigationBar(
         destinations=[
             ft.NavigationBarDestination(
-                icon=ft.Icon.DEVELOPER_BOARD, label="H.O.M.E.T"
+                icon=ft.Icons.DEVELOPER_BOARD, label="H.O.M.E.T"
             ),
             ft.NavigationBarDestination(
-                icon=ft.Icon.MONITOR_HEART_OUTLINED, label="HW MONITOR"
+                icon=ft.Icons.MONITOR_HEART_OUTLINED, label="HW MONITOR"
             ),
             ft.NavigationBarDestination(
-                icon=ft.Icon.DISPLAY_SETTINGS_OUTLINED, label="TWEAKS"
+                icon=ft.Icons.DISPLAY_SETTINGS_OUTLINED, label="TWEAKS"
             ),
             ft.NavigationBarDestination(
-                icon=ft.Icon.FACT_CHECK_OUTLINED, label="HW TESTS"
+                icon=ft.Icons.FACT_CHECK_OUTLINED, label="HW TESTS"
             ),
             ft.NavigationBarDestination(
-                icon=ft.Icon.ASSIGNMENT_ROUNDED, label="REPORT"
+                icon=ft.Icons.ASSIGNMENT_ROUNDED, label="REPORT"
             ),
         ],
         selected_index=0,
         animation_duration=300,
         on_change=lambda e: change_page(e.control.selected_index),
-        shadow_color=ft.colors.BLACK
+        shadow_color=ft.Colors.BLACK
     )
     language_menu = ft.PopupMenuButton(
-        icon=ft.Icon.LANGUAGE,
+        icon=ft.Icons.LANGUAGE,
         items=[
             ft.PopupMenuItem(text="English", on_click=lambda _: (change_language("en"), _refresh_texts())),
             ft.PopupMenuItem(text="Español", on_click=lambda _: (change_language("es"), _refresh_texts())),
@@ -365,13 +364,8 @@ def hide_console():
             ctypes.windll.user32.ShowWindow(hwnd, 0) 
 
 def shutdown_api():
-    subprocess.run(["powershell", "-command", "Invoke-WebRequest -Uri http://localhost:5123/api/hardware/off -Method POST"], shell=True)
-    
-    time.sleep(3)
-
-    subprocess.run(["powershell", "-command", "Stop-Process -Name LHM -Force"], shell=True)
-
-    print("El proceso LHM.exe ha sido detenido.")
+    subprocess.Popen(["taskkill", "/F", "/IM", "APP.exe"], shell=True)  
+    subprocess.Popen(["cmd", "/c", "close_api.bat"], shell=True)  
 
 if __name__ == "__main__":
     try:

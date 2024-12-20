@@ -92,6 +92,7 @@ def create_loading_component(page: ft.Page):
             "Analyzing Data...",
             "Reading Values...",
         ]
+        
         index = 0
         while container.visible:
             loading_text.value = messages[index]

@@ -93,7 +93,6 @@ def enable_homet():
     core_parking_guid = "0cc5b647-c1df-4637-891a-dec35c318583"
     max_cpu_guid = "bc5038f7-23e0-4960-96da-33abaf5935ec"
     boost_mode_guid = "be337238-0d82-4146-a960-4f3749d470c7"
-
     lid_subgroup_guid = "4f971e89-eebd-4455-a8de-9e59040e7347" 
     lid_action_guid = "5ca83367-6e45-459f-a27b-476b1d01c936"   
 

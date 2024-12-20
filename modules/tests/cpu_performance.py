@@ -80,7 +80,7 @@ def cpu_performance_test(results_container: ft.Column, iterations=3 * 10**7, num
     num_processes = num_processes or multiprocessing.cpu_count()
     
     progress_bar = ft.ProgressBar(width=400, value=0)
-    icon = ft.Icon(name=ft.Icon.SPEED, size=64, color="#4c8ea6")
+    icon = ft.Icon(name=ft.icons.SPEED, size=64, color="#4c8ea6")
     
     results_container.controls.append(
         ft.Text(translate("performance_test_running"), size=16, weight="bold")
@@ -104,7 +104,7 @@ def cpu_performance_test(results_container: ft.Column, iterations=3 * 10**7, num
                     [
                         ft.Row(
                             [
-                                ft.Icon(name=ft.Icon.COMPUTER, color="#4c8ea6", size=20),
+                                ft.Icon(name=ft.icons.COMPUTER, color="#4c8ea6", size=20),
                                 ft.Text(translate("cpu_reference"), size=14, weight="bold", color='#4c8ea6')
                             ],
                             alignment="start"
