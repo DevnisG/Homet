@@ -22,7 +22,7 @@ def start_optimization_bt(label_ref, on_click):
     return ft.ElevatedButton(
         ref=label_ref,
         text=translate("start_optimization"),
-        icon=ft.icons.SPEED,
+        icon=ft.Icon.SPEED,
         on_click=on_click,
         width=220,
         height=60,
@@ -38,7 +38,7 @@ def reset_default_values_bt(label_ref, on_click):
     return ft.ElevatedButton(
         ref=label_ref,
         text=translate("reset_default_values"),
-        icon=ft.icons.SETTINGS_BACKUP_RESTORE_OUTLINED,
+        icon=ft.Icon.SETTINGS_BACKUP_RESTORE_OUTLINED,
         on_click=on_click,
         width=220,
         height=60,

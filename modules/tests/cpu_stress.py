@@ -23,7 +23,7 @@ def toggle_cpu_stress_test(_, results_container: ft.Column, button: ft.ElevatedB
         button.text = translate("run_test")
         is_stress_running = False
     else:
-        icon = ft.Icon(name=ft.icons.LOCAL_FIRE_DEPARTMENT, size=64, color="#4c8ea6")
+        icon = ft.Icon(name=ft.Icon.LOCAL_FIRE_DEPARTMENT, size=64, color="#4c8ea6")
         results_container.controls.append(icon)
         results_container.controls.append(
             ft.Text(translate("test_initiated"), size=16, weight="bold")

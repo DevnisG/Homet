@@ -23,18 +23,18 @@ def battery_health_test(results_container: ft.Container):
 
                     if health_percentage > 80:
                         status = translate("good_status")
-                        icon = ft.Icon(name=ft.icons.BATTERY_FULL, size=32, color="#4caf50") 
+                        icon = ft.Icon(name=ft.Icon.BATTERY_FULL, size=32, color="#4caf50") 
                     elif health_percentage > 60:
                         status = translate("normal_status")
-                        icon = ft.Icon(name=ft.icons.BATTERY_3_BAR_ROUNDED, size=32, color="#ffeb3b") 
+                        icon = ft.Icon(name=ft.Icon.BATTERY_3_BAR_ROUNDED, size=32, color="#ffeb3b") 
                     else:
                         status = translate("bad_status")
-                        icon = ft.Icon(name=ft.icons.BATTERY_0_BAR, size=32, color="#f44336")  
+                        icon = ft.Icon(name=ft.Icon.BATTERY_0_BAR, size=32, color="#f44336")  
 
                     results_container.controls.append(
                         ft.Row(
                             controls=[
-                                ft.Icon(name=ft.icons.BATTERY_CHARGING_FULL, size=64, color="#4c8ea6"),
+                                ft.Icon(name=ft.Icon.BATTERY_CHARGING_FULL, size=64, color="#4c8ea6"),
                                 ft.Column(
                                     controls=[
                                         ft.Text(translate("health_test_success"), size=16, weight="bold"),

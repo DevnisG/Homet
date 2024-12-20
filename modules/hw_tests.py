@@ -67,11 +67,11 @@ def hw_tests_content():
         )
 
     tests = [
-        (ft.icons.LOCAL_FIRE_DEPARTMENT, "cpu_stress_test_name", "cpu_stress_test_desc", toggle_cpu_stress_test),
-        (ft.icons.FRONT_LOADER, "cpu_ram_load_test_name", "cpu_ram_load_test_desc", cpu_ram_load_test),
-        (ft.icons.VIDEO_STABLE, "cpu_stability_test_name", "cpu_stability_test_desc", cpu_stability_test),
-        (ft.icons.SPEED, "cpu_performance_test_name", "cpu_performance_test_desc", cpu_performance_test),
-        (ft.icons.BATTERY_CHARGING_FULL, "battery_health_test_name", "battery_health_test_desc", battery_health_test),
+        (ft.Icon.LOCAL_FIRE_DEPARTMENT, "cpu_stress_test_name", "cpu_stress_test_desc", toggle_cpu_stress_test),
+        (ft.Icon.FRONT_LOADER, "cpu_ram_load_test_name", "cpu_ram_load_test_desc", cpu_ram_load_test),
+        (ft.Icon.VIDEO_STABLE, "cpu_stability_test_name", "cpu_stability_test_desc", cpu_stability_test),
+        (ft.Icon.SPEED, "cpu_performance_test_name", "cpu_performance_test_desc", cpu_performance_test),
+        (ft.Icon.BATTERY_CHARGING_FULL, "battery_health_test_name", "battery_health_test_desc", battery_health_test),
     ]
 
     return ft.Container(

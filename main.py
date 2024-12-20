@@ -8,6 +8,7 @@ from modules.report import report_content
 from modules.tweaks import tweaks_content
 import multiprocessing
 import flet as ft
+import subprocess
 import threading
 import asyncio
 import ctypes
@@ -67,7 +68,7 @@ def ui(page: ft.Page):
     )
 
     console_header = ft.Row([
-        ft.Icon(ft.icons.TERMINAL, color="#4c8ea6"),
+        ft.Icon(ft.Icon.TERMINAL, color="#4c8ea6"),
         ft.Text(translate("console_output"), color="#4c8ea6", weight=ft.FontWeight.BOLD)
     ])
 
@@ -84,7 +85,7 @@ def ui(page: ft.Page):
     )
 
     cpu_info_header = ft.Row([
-        ft.Icon(ft.icons.MEMORY, color="#4c8ea6"),
+        ft.Icon(ft.Icon.MEMORY, color="#4c8ea6"),
         ft.Text(translate("cpu_info"), color="#4c8ea6", weight=ft.FontWeight.BOLD)
     ])
 
@@ -162,19 +163,19 @@ def ui(page: ft.Page):
     nav = ft.NavigationBar(
         destinations=[
             ft.NavigationBarDestination(
-                icon=ft.icons.DEVELOPER_BOARD, label="H.O.M.E.T"
+                icon=ft.Icon.DEVELOPER_BOARD, label="H.O.M.E.T"
             ),
             ft.NavigationBarDestination(
-                icon=ft.icons.MONITOR_HEART_OUTLINED, label="HW MONITOR"
+                icon=ft.Icon.MONITOR_HEART_OUTLINED, label="HW MONITOR"
             ),
             ft.NavigationBarDestination(
-                icon=ft.icons.DISPLAY_SETTINGS_OUTLINED, label="TWEAKS"
+                icon=ft.Icon.DISPLAY_SETTINGS_OUTLINED, label="TWEAKS"
             ),
             ft.NavigationBarDestination(
-                icon=ft.icons.FACT_CHECK_OUTLINED, label="HW TESTS"
+                icon=ft.Icon.FACT_CHECK_OUTLINED, label="HW TESTS"
             ),
             ft.NavigationBarDestination(
-                icon=ft.icons.ASSIGNMENT_ROUNDED, label="REPORT"
+                icon=ft.Icon.ASSIGNMENT_ROUNDED, label="REPORT"
             ),
         ],
         selected_index=0,
@@ -183,7 +184,7 @@ def ui(page: ft.Page):
         shadow_color=ft.colors.BLACK
     )
     language_menu = ft.PopupMenuButton(
-        icon=ft.icons.LANGUAGE,
+        icon=ft.Icon.LANGUAGE,
         items=[
             ft.PopupMenuItem(text="English", on_click=lambda _: (change_language("en"), _refresh_texts())),
             ft.PopupMenuItem(text="Español", on_click=lambda _: (change_language("es"), _refresh_texts())),
@@ -363,8 +364,20 @@ def hide_console():
         if hwnd != 0:
             ctypes.windll.user32.ShowWindow(hwnd, 0) 
 
+def shutdown_api():
+    subprocess.run(["powershell", "-command", "Invoke-WebRequest -Uri http://localhost:5123/api/hardware/off -Method POST"], shell=True)
+    
+    time.sleep(3)
+
+    subprocess.run(["powershell", "-command", "Stop-Process -Name LHM -Force"], shell=True)
+
+    print("El proceso LHM.exe ha sido detenido.")
+
 if __name__ == "__main__":
-    multiprocessing.set_start_method("spawn", force=True)
-    multiprocessing.freeze_support()
-    hide_console()
-    ft.app(target=ui)
+    try:
+        multiprocessing.set_start_method("spawn", force=True)
+        multiprocessing.freeze_support()
+        hide_console()
+        ft.app(target=ui)
+    finally:
+        shutdown_api()
