@@ -17,7 +17,7 @@ translations = {
         "cpu_load": "CPU Load: Loading...",
         "console_output": "Console Output",
         "cpu_info": "CPU Info",
-        "license": "H.O.M.E.T FREE LICENSE 2024 (BY_DENIS_G)",
+        "license": "H.O.M.E.T FREE LICENSE 2025 (BY_DENIS_G)",
         "license_details": "Distributed under the MIT License. See the LICENSE file for more details.",
 
         # H.O.M.E.T
@@ -180,7 +180,7 @@ translations = {
         "cpu_load": "Carga de CPU: Cargando...",
         "console_output": "Salida de Consola",
         "cpu_info": "Información de CPU",
-        "license": "LICENCIA GRATUITA DE H.O.M.E.T 2024 (POR_DENIS_G)",
+        "license": "LICENCIA GRATUITA DE H.O.M.E.T 2025 (POR_DENIS_G)",
         "license_details": "Distribuido bajo la Licencia MIT. Consulte el archivo LICENSE para más detalles.",
 
         # H.O.M.E.T

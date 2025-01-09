@@ -99,7 +99,7 @@ def ui(page: ft.Page):
         "TWEAKS": tweaks_content(add_console_message),
         "HW MONITOR": hw_monitor_layout,
         "HW TESTS": hw_tests_content(),
-        "REPORT": report_content(page),
+        "REPORTS": report_content(page),
     }
 
     def _refresh_texts():
@@ -135,12 +135,12 @@ def ui(page: ft.Page):
 
         pages["HW TESTS"] = hw_tests_content()
 
-        pages["REPORT"] = report_content(page)
+        pages["REPORTS"] = report_content(page)
 
         page.update()
 
     def change_page(index):
-        page_names = ["H.O.M.E.T", "HW MONITOR", "TWEAKS", "HW TESTS", "REPORT"]
+        page_names = ["H.O.M.E.T", "HW MONITOR", "TWEAKS", "HW TESTS", "REPORTS"]
         current_page.current.controls = [pages[page_names[index]]]
         if index == 0:
             console_container.current.visible = True
@@ -174,7 +174,7 @@ def ui(page: ft.Page):
                 icon=ft.Icons.FACT_CHECK_OUTLINED, label="HW TESTS"
             ),
             ft.NavigationBarDestination(
-                icon=ft.Icons.ASSIGNMENT_ROUNDED, label="REPORT"
+                icon=ft.Icons.ASSIGNMENT_ROUNDED, label="REPORTS"
             ),
         ],
         selected_index=0,
