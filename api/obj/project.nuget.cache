@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+p/I+hQM71c=",
+  "dgSpecHash": "VCPgoq4IC4M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Devnis\\Desktop\\Homet\\api\\LHM.csproj",
+  "projectFilePath": "C:\\Users\\Devnis\\Homet\\api\\LHM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Devnis\\.nuget\\packages\\hidsharp\\2.1.0\\hidsharp.2.1.0.nupkg.sha512",
     "C:\\Users\\Devnis\\.nuget\\packages\\librehardwaremonitorlib\\0.9.4\\librehardwaremonitorlib.0.9.4.nupkg.sha512",

@@ -60,18 +60,8 @@ def tweaks_content(add_console_message):
 
     def tweak_3(action):
         if action == "apply":
-            add_console_message("enable_dark_mode")
-            script = (
-                'reg add "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize" '
-                '/v SystemUsesLightTheme /t REG_DWORD /d 0 /f'
-            )
-            run_powershell_script(script)
-        elif action == "undo":
-            add_console_message("undo enable_dark_mode")
-            script = (
-                'reg add "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize" '
-                '/v SystemUsesLightTheme /t REG_DWORD /d 1 /f'
-            )
+            add_console_message("open_startup_settings")
+            script = "start ms-settings:startupapps"
             run_powershell_script(script)
 
     def tweak_4(action):
@@ -191,10 +181,11 @@ def tweaks_content(add_console_message):
             tweak_2
         ),
         create_tweak_row(
-            ft.Icons.DARK_MODE,
-            "enable_dark_mode",
-            "enable_dark_mode_desc",
-            tweak_3
+            ft.Icons.SETTINGS_POWER, 
+            "open_startup_settings", 
+            "open_startup_settings_desc", 
+            tweak_3,
+            undo=False,
         ),
         create_tweak_row(
             ft.Icons.LIGHTBULB,

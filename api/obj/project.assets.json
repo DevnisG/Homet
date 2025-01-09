@@ -3963,11 +3963,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Devnis\\Desktop\\Homet\\api\\LHM.csproj",
+      "projectUniqueName": "C:\\Users\\Devnis\\Homet\\api\\LHM.csproj",
       "projectName": "LHM",
-      "projectPath": "C:\\Users\\Devnis\\Desktop\\Homet\\api\\LHM.csproj",
+      "projectPath": "C:\\Users\\Devnis\\Homet\\api\\LHM.csproj",
       "packagesPath": "C:\\Users\\Devnis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Devnis\\Desktop\\Homet\\api\\obj\\",
+      "outputPath": "C:\\Users\\Devnis\\Homet\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Devnis\\AppData\\Roaming\\NuGet\\NuGet.Config"
