@@ -24,9 +24,9 @@
 
 ## **Descarga la version compilada y lista para usar desde aqui:** 
 
-- [H.O.M.E.T WEB] (https://homet-beryl.vercel.app/)
+- [H.O.M.E.T WEB](https://homet-chi.vercel.app/)
 
-- [H.O.M.E.T - v1.0.2](https://github.com/DevnisG/Homet/releases/download/Homet_downloads/Homet_v1.0.2.rar)
+- [H.O.M.E.T Installer - v1.0.2](https://github.com/DevnisG/Homet/releases/download/Homet/Setup_Homet_v1.0.2_x64.exe)
 
 - [Relases](https://github.com/DevnisG/Homet/releases)
 
