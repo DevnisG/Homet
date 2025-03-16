@@ -24,11 +24,11 @@
 
 ## **Descarga la version compilada y lista para usar desde aqui:** 
 
-- [H.O.M.E.T WEB]()
+- [H.O.M.E.T WEB](download-homet.netlify.app/)
 
-- [H.O.M.E.T Installer - v1.0.0]()
+- [H.O.M.E.T Installer - v1.0.0](https://github.com/DevnisG/Homet/releases/download/Homet/Setup_Homet_v1.0.0_x64.exe)
 
-- [Relases]()
+- [Relases](https://github.com/DevnisG/Homet/releases/tag/Homet)
 
 
 
@@ -140,28 +140,14 @@ _Gracias por usar H.O.M.E.T. Espero que esta herramienta te ayude a mantener tu 
 
 ## **Vista Previa de H.O.M.E.T**
 
+![HOMET](/data/_readme/H_UI/HOMET.png)
 
-*ENG*
+![HW_MONITOR](/data/_readme/H_UI/HW%20MONITOR.png)
 
-![HOMET](/data/_readme/eng/main_eng.png)
+![TWEAKS](/data/_readme/H_UI/TWEAKS.png)
 
-![HW_MONITOR](/data/_readme/eng/hw_m_eng.png)
+![TESTS](/data/_readme/H_UI/HW%20TESTS.png)
 
-![TWEAKS](/data/_readme/eng/twks_eng.png)
+![REPORTS](/data/_readme/H_UI/REPORTS.png)
 
-![TESTS](/data/_readme/eng/tests_eng.png)
-
-![REPORT](/data/_readme/eng/reports_eng.png)
-
-*ESP*
-
-![HOMET](/data/_readme/esp/main.png)
-
-![HW_MONITOR](/data/_readme/esp/hw_m.png)
-
-![TWEAKS](/data/_readme/esp/twks.png)
-
-![TESTS](/data/_readme/esp/tests.png)
-
-![REPORT](/data/_readme/esp/reports.png)
-
+![VUI](/data/_readme/H_UI/UI.mp4)
