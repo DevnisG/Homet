@@ -1,0 +1,19 @@
+Hardware: AMD E1-6010 APU with AMD Radeon R2 Graphics (Cpu)
+
+  Sensor: CPU Core #1, Tipo: Load, Valor: 40.86176300048828
+  Sensor: CPU Core #2, Tipo: Load, Valor: 53.93663787841797
+  Sensor: CPU Total, Tipo: Load, Valor: 47.399200439453125
+  Sensor: CPU Core Max, Tipo: Load, Valor: 53.93663787841797
+
+  Sensor: CPU Cores, Tipo: Voltage, Valor: 1.0124999284744263
+  Sensor: Northbridge, Tipo: Voltage, Valor: 0.8249999284744263
+
+  Sensor: CPU Core #1, Tipo: Clock, Valor: 1347.83984375
+  Sensor: CPU Core #2, Tipo: Clock, Valor: 1347.83984375
+
+  Sensor: CPU Package C2, Tipo: Level, Valor: 0.0
+  Sensor: CPU Package C3, Tipo: Level, Valor: 0.0
+
+  Sensor: CPU Cores, Tipo: Temperature, Valor: 55.25
+  
+  Sensor: Bus Speed, Tipo: Clock, Valor: 199.6799774169922

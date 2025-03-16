@@ -1,0 +1,51 @@
+Hardware: AMD Ryzen 5 3600 (Cpu)
+
+  Sensor: CPU Core #1, Tipo: Load, Valor: 43.550079345703125
+  Sensor: CPU Core #2, Tipo: Load, Valor: 0.0
+  Sensor: CPU Core #3, Tipo: Load, Valor: 73.23552703857422
+  Sensor: CPU Core #4, Tipo: Load, Valor: 40.62207794189453
+  Sensor: CPU Core #5, Tipo: Load, Valor: 23.811840057373047
+  Sensor: CPU Core #6, Tipo: Load, Valor: 0.0
+  Sensor: CPU Core #7, Tipo: Load, Valor: 0.0
+  Sensor: CPU Core #8, Tipo: Load, Valor: 0.0
+  Sensor: CPU Core #9, Tipo: Load, Valor: 0.0
+  Sensor: CPU Core #10, Tipo: Load, Valor: 0.0
+  Sensor: CPU Core #11, Tipo: Load, Valor: 41.342079162597656
+  Sensor: CPU Core #12, Tipo: Load, Valor: 0.0
+  Sensor: CPU Total, Tipo: Load, Valor: 6.5369367599487305
+  Sensor: CPU Core Max, Tipo: Load, Valor: 73.23552703857422
+
+  Sensor: Package, Tipo: Power, Valor: 29.757761001586914
+  Sensor: Core #1 (SMU), Tipo: Power, Valor: 0.3060879707336426
+  Sensor: Core #2 (SMU), Tipo: Power, Valor: 0.7844650149345398
+  Sensor: Core #3 (SMU), Tipo: Power, Valor: 2.6814773082733154
+  Sensor: Core #4 (SMU), Tipo: Power, Valor: 0.22360917925834656
+  Sensor: Core #5 (SMU), Tipo: Power, Valor: 0.002062856452539563
+  Sensor: Core #6 (SMU), Tipo: Power, Valor: 0.37194424867630005
+
+  Sensor: Core #1, Tipo: Clock, Valor: 3575.037109375
+  Sensor: Core #2, Tipo: Clock, Valor: 3575.037109375
+  Sensor: Core #3, Tipo: Clock, Valor: 3575.037109375
+  Sensor: Core #4, Tipo: Clock, Valor: 3575.037109375
+  Sensor: Core #5, Tipo: Clock, Valor: 3575.037109375
+  Sensor: Core #6, Tipo: Clock, Valor: 3575.037109375
+  Sensor: Bus Speed, Tipo: Clock, Valor: 100.00103759765625
+  Sensor: Fabric, Tipo: Clock, Valor: 1600.0
+  Sensor: Uncore, Tipo: Clock, Valor: 1600.0
+  Sensor: Memory, Tipo: Clock, Valor: 1600.0
+
+  Sensor: Core (Tctl/Tdie), Tipo: Temperature, Valor: 36.50000762939453
+  Sensor: CCD1 (Tdie), Tipo: Temperature, Valor: 35.5
+  Sensor: SoC, Tipo: Temperature, Valor: 35.85000228881836
+
+  Sensor: Core (SVI2 TFN), Tipo: Voltage, Valor: 1.03125
+  Sensor: SoC (SVI2 TFN), Tipo: Voltage, Valor: 1.087499976158142
+  Sensor: Core #1 VID, Tipo: Voltage, Valor: 1.03125
+  Sensor: Core #2 VID, Tipo: Voltage, Valor: 1.03125
+  Sensor: Core #3 VID, Tipo: Voltage, Valor: 1.03125
+  Sensor: Core #4 VID, Tipo: Voltage, Valor: 1.03125
+  Sensor: Core #5 VID, Tipo: Voltage, Valor: 1.03125
+  Sensor: Core #6 VID, Tipo: Voltage, Valor: 1.03125
+  
+  Sensor: TDC, Tipo: Current, Valor: 4.83616304397583
+  Sensor: EDC, Tipo: Current, Valor: 42.92588806152344

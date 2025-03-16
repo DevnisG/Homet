@@ -1,0 +1,74 @@
+Hardware: 12th Gen Intel Core i7-12650H (Cpu)
+
+  Sensor: CPU Core #1 Thread #1, Tipo: Load, Valor: 28.578758239746094
+  Sensor: CPU Core #1 Thread #2, Tipo: Load, Valor: 1.398402452468872
+  Sensor: CPU Core #2 Thread #1, Tipo: Load, Valor: 8.074623107910156
+  Sensor: CPU Core #2 Thread #2, Tipo: Load, Valor: 1.3983547687530518
+  Sensor: CPU Core #3 Thread #1, Tipo: Load, Valor: 8.074325561523438
+  Sensor: CPU Core #3 Thread #2, Tipo: Load, Valor: 33.97591018676758
+  Sensor: CPU Core #4 Thread #1, Tipo: Load, Valor: 8.889693260192871
+  Sensor: CPU Core #4 Thread #2, Tipo: Load, Valor: 1.3666749000549316
+  Sensor: CPU Core #5 Thread #1, Tipo: Load, Valor: 8.041048049926758
+  Sensor: CPU Core #5 Thread #2, Tipo: Load, Valor: 0.0
+  Sensor: CPU Core #6 Thread #1, Tipo: Load, Valor: 0.0
+  Sensor: CPU Core #6 Thread #2, Tipo: Load, Valor: 0.0
+
+  Sensor: CPU Core #7, Tipo: Load, Valor: 8.049535751342773
+  Sensor: CPU Core #8, Tipo: Load, Valor: 13.33785629272461
+  Sensor: CPU Core #9, Tipo: Load, Valor: 8.809000015258789
+  Sensor: CPU Core #10, Tipo: Load, Valor: 8.384000778198242
+  Sensor: CPU Total, Tipo: Load, Valor: 5.619943141937256
+  Sensor: CPU Core Max, Tipo: Load, Valor: 33.97591018676758
+
+  Sensor: CPU Core #1, Tipo: Temperature, Valor: 43.0
+  Sensor: CPU Core #2, Tipo: Temperature, Valor: 41.0
+  Sensor: CPU Core #3, Tipo: Temperature, Valor: 47.0
+  Sensor: CPU Core #4, Tipo: Temperature, Valor: 42.0
+  Sensor: CPU Core #5, Tipo: Temperature, Valor: 45.0
+  Sensor: CPU Core #6, Tipo: Temperature, Valor: 41.0
+  Sensor: CPU Core #7, Tipo: Temperature, Valor: 42.0
+  Sensor: CPU Core #8, Tipo: Temperature, Valor: 42.0
+  Sensor: CPU Core #9, Tipo: Temperature, Valor: 42.0
+  Sensor: CPU Core #10, Tipo: Temperature, Valor: 42.0
+  Sensor: CPU Package, Tipo: Temperature, Valor: 49.0
+  Sensor: CPU Core #1 Distance to TjMax, Tipo: Temperature, Valor: 57.0
+  Sensor: CPU Core #2 Distance to TjMax, Tipo: Temperature, Valor: 59.0
+  Sensor: CPU Core #3 Distance to TjMax, Tipo: Temperature, Valor: 53.0
+  Sensor: CPU Core #4 Distance to TjMax, Tipo: Temperature, Valor: 58.0
+  Sensor: CPU Core #5 Distance to TjMax, Tipo: Temperature, Valor: 55.0
+  Sensor: CPU Core #6 Distance to TjMax, Tipo: Temperature, Valor: 59.0
+  Sensor: CPU Core #7 Distance to TjMax, Tipo: Temperature, Valor: 58.0
+  Sensor: CPU Core #8 Distance to TjMax, Tipo: Temperature, Valor: 58.0
+  Sensor: CPU Core #9 Distance to TjMax, Tipo: Temperature, Valor: 58.0
+  Sensor: CPU Core #10 Distance to TjMax, Tipo: Temperature, Valor: 58.0
+  Sensor: Core Max, Tipo: Temperature, Valor: 47.0
+  Sensor: Core Average, Tipo: Temperature, Valor: 42.70000076293945
+
+  Sensor: CPU Core #1, Tipo: Clock, Valor: 2190.321533203125
+  Sensor: CPU Core #2, Tipo: Clock, Valor: 2190.321533203125
+  Sensor: CPU Core #3, Tipo: Clock, Valor: 2190.321533203125
+  Sensor: CPU Core #4, Tipo: Clock, Valor: 2190.321533203125
+  Sensor: CPU Core #5, Tipo: Clock, Valor: 2190.321533203125
+  Sensor: CPU Core #6, Tipo: Clock, Valor: 2190.321533203125
+  Sensor: CPU Core #7, Tipo: Clock, Valor: 2289.881591796875
+  Sensor: CPU Core #8, Tipo: Clock, Valor: 2289.881591796875
+  Sensor: CPU Core #9, Tipo: Clock, Valor: 2289.881591796875
+  Sensor: CPU Core #10, Tipo: Clock, Valor: 2289.881591796875
+
+  Sensor: CPU Package, Tipo: Power, Valor: 7.800900459289551
+  Sensor: CPU Cores, Tipo: Power, Valor: 1.669456124305725
+  Sensor: CPU Memory, Tipo: Power, Valor: 0.0
+
+  Sensor: CPU Core, Tipo: Voltage, Valor: 0.9134521484375
+  Sensor: CPU Core #1, Tipo: Voltage, Valor: 0.823486328125
+  Sensor: CPU Core #2, Tipo: Voltage, Valor: 0.823486328125
+  Sensor: CPU Core #3, Tipo: Voltage, Valor: 0.817626953125
+  Sensor: CPU Core #4, Tipo: Voltage, Valor: 0.817626953125
+  Sensor: CPU Core #5, Tipo: Voltage, Valor: 0.817626953125
+  Sensor: CPU Core #6, Tipo: Voltage, Valor: 0.8226318359375
+  Sensor: CPU Core #7, Tipo: Voltage, Valor: 0.892578125
+  Sensor: CPU Core #8, Tipo: Voltage, Valor: 0.902587890625
+  Sensor: CPU Core #9, Tipo: Voltage, Valor: 0.902587890625
+  Sensor: CPU Core #10, Tipo: Voltage, Valor: 0.892578125
+  
+  Sensor: Bus Speed, Tipo: Clock, Valor: 99.56007385253906

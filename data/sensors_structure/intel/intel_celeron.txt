@@ -1,0 +1,28 @@
+Hardware: Intel Celeron N4500 (Cpu)
+
+  Sensor: CPU Core #1, Tipo: Load, Valor: 25.32403564453125
+  Sensor: CPU Core #2, Tipo: Load, Valor: 36.94477081298828
+
+  Sensor: CPU Total, Tipo: Load, Valor: 31.134403228759766
+  Sensor: CPU Core Max, Tipo: Load, Valor: 36.94477081298828
+
+  Sensor: CPU Core #1, Tipo: Temperature, Valor: 60.0
+  Sensor: CPU Core #2, Tipo: Temperature, Valor: 60.0
+  Sensor: CPU Package, Tipo: Temperature, Valor: 61.0
+  Sensor: CPU Core #1 Distance to TjMax, Tipo: Temperature, Valor: 45.0
+  Sensor: CPU Core #2 Distance to TjMax, Tipo: Temperature, Valor: 45.0
+  Sensor: Core Max, Tipo: Temperature, Valor: 60.0
+  Sensor: Core Average, Tipo: Temperature, Valor: 60.0
+
+  Sensor: CPU Core #1, Tipo: Clock, Valor: 2834.7900390625
+  Sensor: CPU Core #2, Tipo: Clock, Valor: 2834.7900390625
+  Sensor: CPU Package, Tipo: Power, Valor: 3.15971040725708
+
+  Sensor: CPU Cores, Tipo: Power, Valor: 0.9628848433494568
+  Sensor: CPU Memory, Tipo: Power, Valor: 0.0
+
+  Sensor: CPU Core, Tipo: Voltage, Valor: 1.137451171875
+  Sensor: CPU Core #1, Tipo: Voltage, Valor: 1.137451171875
+  Sensor: CPU Core #2, Tipo: Voltage, Valor: 1.137451171875
+
+  Sensor: Bus Speed, Tipo: Clock, Valor: 101.24250793457031

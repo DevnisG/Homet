@@ -1,0 +1,41 @@
+Hardware: Intel Core i7-8550U (Cpu)
+
+  Sensor: CPU Core #1 Thread #1, Tipo: Load, Valor: 46.37504196166992
+  Sensor: CPU Core #1 Thread #2, Tipo: Load, Valor: 31.742721557617188
+  Sensor: CPU Core #2 Thread #1, Tipo: Load, Valor: 21.939069747924805
+  Sensor: CPU Core #2 Thread #2, Tipo: Load, Valor: 32.43584060668945
+  Sensor: CPU Core #3 Thread #1, Tipo: Load, Valor: 15.103614807128906
+  Sensor: CPU Core #3 Thread #2, Tipo: Load, Valor: 12.669825553894043
+  Sensor: CPU Core #4 Thread #1, Tipo: Load, Valor: 38.37120056152344
+  Sensor: CPU Core #4 Thread #2, Tipo: Load, Valor: 25.482559204101562
+  Sensor: CPU Total, Tipo: Load, Valor: 28.014982223510742
+  Sensor: CPU Core Max, Tipo: Load, Valor: 46.37504196166992
+
+  Sensor: CPU Core #1, Tipo: Temperature, Valor: 77.0
+  Sensor: CPU Core #2, Tipo: Temperature, Valor: 73.0
+  Sensor: CPU Core #3, Tipo: Temperature, Valor: 73.0
+  Sensor: CPU Core #4, Tipo: Temperature, Valor: 68.0
+  Sensor: CPU Package, Tipo: Temperature, Valor: 73.0
+  Sensor: CPU Core #1 Distance to TjMax, Tipo: Temperature, Valor: 23.0
+  Sensor: CPU Core #2 Distance to TjMax, Tipo: Temperature, Valor: 27.0
+  Sensor: CPU Core #3 Distance to TjMax, Tipo: Temperature, Valor: 27.0
+  Sensor: CPU Core #4 Distance to TjMax, Tipo: Temperature, Valor: 32.0
+  Sensor: Core Max, Tipo: Temperature, Valor: 77.0
+  Sensor: Core Average, Tipo: Temperature, Valor: 72.75
+
+  Sensor: CPU Core #1, Tipo: Clock, Valor: 3685.423583984375
+  Sensor: CPU Core #2, Tipo: Clock, Valor: 3685.423583984375
+  Sensor: CPU Core #3, Tipo: Clock, Valor: 3685.423583984375
+  Sensor: CPU Core #4, Tipo: Clock, Valor: 3685.423583984375
+
+  Sensor: CPU Package, Tipo: Power, Valor: 23.040414810180664
+  Sensor: CPU Cores, Tipo: Power, Valor: 19.347169876098633
+  Sensor: CPU Memory, Tipo: Power, Valor: 0.8591094017028809
+
+  Sensor: CPU Core, Tipo: Voltage, Valor: 1.175048828125
+  Sensor: CPU Core #1, Tipo: Voltage, Valor: 1.175048828125
+  Sensor: CPU Core #2, Tipo: Voltage, Valor: 1.1807861328125
+  Sensor: CPU Core #3, Tipo: Voltage, Valor: 1.2008056640625
+  Sensor: CPU Core #4, Tipo: Voltage, Valor: 1.2083740234375
+
+  Sensor: Bus Speed, Tipo: Clock, Valor: 99.60604095458984
