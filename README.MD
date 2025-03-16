@@ -149,5 +149,3 @@ _Gracias por usar H.O.M.E.T. Espero que esta herramienta te ayude a mantener tu 
 ![TESTS](/data/_readme/H_UI/HW%20TESTS.png)
 
 ![REPORTS](/data/_readme/H_UI/REPORTS.png)
-
-![VUI](/data/_readme/H_UI/UI.mp4)
